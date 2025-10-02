@@ -1,0 +1,12 @@
+[project]
+name = "aglib"
+version = "0.1.0"
+description = "Lightweight agent toolkit (split from server repo)"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

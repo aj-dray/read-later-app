@@ -1,0 +1,7 @@
+# Ignore build/metadata artifacts
+*.egg-info/
+src/*.egg-info/
+__pycache__/
+.pytest_cache/
+build
+.DS_Store

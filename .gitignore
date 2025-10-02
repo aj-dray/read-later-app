@@ -1,0 +1,16 @@
+.logs
+.claude
+.mcp
+.playwright-mcp
+.pytest*
+.zed
+output
+.venv
+.mcp.json
+CLAUDE.md
+AGENTS.md
+.ropeproject
+__pycache__
+.DS_Store*
+database/data/
+pgdata/

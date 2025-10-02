@@ -1,0 +1,41 @@
+{
+    "mistral": {
+        "mistral-medium": {
+            "billing_type": "per_token",
+            "unit_tokens": 1000000,
+            "input_cost": "2",
+            "output_cost": "5",
+            "currency": "USD"
+        },
+        "mistral-medium-latest": {
+            "billing_type": "per_token",
+            "unit_tokens": 1000000,
+            "input_cost": "2",
+            "output_cost": "5",
+            "currency": "USD"
+        },
+        "mistral-embed": {
+            "billing_type": "per_token",
+            "unit_tokens": 1000000,
+            "input_cost": "0.10",
+            "output_cost": "0",
+            "currency": "USD"
+        },
+        "mistral-embed-latest": {
+            "billing_type": "per_token",
+            "unit_tokens": 1000000,
+            "input_cost": "0.10",
+            "output_cost": "0",
+            "currency": "USD"
+        }
+    },
+    "cohere": {
+        "rerank-english-v3.0": {
+            "billing_type": "per_request",
+            "request_key": "requests",
+            "cost_per_request": "0.002",
+            "unit_label": "search",
+            "currency": "USD"
+        }
+    }
+}

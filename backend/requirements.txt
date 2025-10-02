@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+trafilatura
+psycopg[binary]>=3.1
+psycopg-pool>=3.1
+litellm
+pyjwt
+scikit-learn
+umap-learn
+cohere
